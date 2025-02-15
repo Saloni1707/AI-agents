@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#AI Agents
+This repository contains my implementation of AI Agents, inspired by this YouTube tutorial. The project explores the development of autonomous AI agents capable of performing complex tasks with minimal human intervention using Node.js.
 
-## Getting Started
+#🚀 Features
+Prompt Caching with Anthropic:
 
-First, run the development server:
+Efficient token management through prompt caching, drastically reducing token usage and improving response times.
+Data Integration with IBM's wxflows:
+Real-time token streaming.
+Tool execution feedback.
+Robust error handling for failed tool calls.
+Modern Chat Interface:
 
-```bash
+Tool-augmented responses and context-aware conversations.
+Efficient token management with a 4096 token context window.
+Production Deployment with Vercel:
+
+Environment variable management.
+Production-ready configurations and performance optimization.
+#📚 Tech Stack
+Node.js: Core runtime environment for building scalable network applications.
+OpenAI API and Claude 3.5 Sonnet: For natural language understanding and generation.
+LangChain & LangGraph: For sophisticated tool usage and state management.
+IBM's wxflows: Rapid integration with various data sources.
+Clerk & Convex Database: User management and real-time data synchronization.
+Next.js 15: Frontend framework with custom streaming solutions.
+Vercel: Deployment platform with performance optimizations.
+#⚙️ Installation
+Clone the repository:
+sh
+Copy
+Edit
+git clone https://github.com/Saloni1707/AI-agents.git
+cd ai-agents
+Install dependencies:
+
+sh
+Copy
+Edit
+npm install
+Set up environment variables:
+Create a .env file and add the following:
+
+To start the AI agents:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ai-agents/
+│
+├── index.js          # Entry point for the application
+├── agents/           # Directory containing agent logic
+├── utils/            # Helper functions and utilities
+├── data/             # Sample data for agent interactions
+├── components/       # Frontend components for the chat interface
+├── pages/            # Next.js pages
+├── public/           # Static assets
+└── package.json      # Node.js dependencies and scripts
+🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request with your changes.
