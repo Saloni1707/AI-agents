@@ -56,5 +56,6 @@ ai-agents/
 ├── pages/            # Next.js pages
 ├── public/           # Static assets
 └── package.json      # Node.js dependencies and scripts
-🤝 Contributing
+
+<h1>🤝 Contributing </h1>
 Contributions are welcome! Please open an issue or submit a pull request with your changes.
