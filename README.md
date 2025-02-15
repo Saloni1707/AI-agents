@@ -5,7 +5,6 @@ This repository contains my implementation of AI Agents, inspired by this YouTub
 Prompt Caching with Anthropic:
 
 Efficient token management through prompt caching, drastically reducing token usage and improving response times.
-Data Integration with IBM's wxflows:
 Real-time token streaming.
 Tool execution feedback.
 Robust error handling for failed tool calls.
@@ -17,7 +16,7 @@ Production Deployment with Vercel:
 
 Environment variable management.
 Production-ready configurations and performance optimization.
-#📚 Tech Stack
+<h1>📚 Tech Stack</h1>
 Node.js: Core runtime environment for building scalable network applications.
 OpenAI API and Claude 3.5 Sonnet: For natural language understanding and generation.
 LangChain & LangGraph: For sophisticated tool usage and state management.
@@ -25,7 +24,7 @@ IBM's wxflows: Rapid integration with various data sources.
 Clerk & Convex Database: User management and real-time data synchronization.
 Next.js 15: Frontend framework with custom streaming solutions.
 Vercel: Deployment platform with performance optimizations.
-#⚙️ Installation
+<h1>⚙️ Installation</h1>
 Clone the repository:
 sh
 Copy
