@@ -25,9 +25,9 @@ export default function RootLayout({
   const pathname = usePathname();
 
   // Hide Sidebar on Homepage and Dashboard
-  const hideSidebarOnPaths = ["/", "/dashboard"];
-
-  const showSidebar = !hideSidebarOnPaths.includes(pathname);
+  // Hide Sidebar on Homepage and Main Dashboard
+const hideSidebarOnPaths = ["/", "/dashboard"];
+const showSidebar = !hideSidebarOnPaths.some((path) => pathname.startsWith(path));
 
   return (
     <html lang="en">
